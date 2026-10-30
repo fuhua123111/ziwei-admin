@@ -239,7 +239,7 @@ python scripts/backup.py restore <文件名>   # 恢复（恢复前自动备份�
 本项目代码以 [MIT License](LICENSE) 发布，可自由用于商业项目。
 
 排盘算法与星曜数据来自 [iztro](https://github.com/SylarLong/iztro)，同样为 MIT 协议。
-详见 [LICENSE](LICENSE) 中的第三方声明。
+第三方依赖（iztro 等）的声明见 [NOTICE.md](NOTICE.md)。
 
 ---
 
