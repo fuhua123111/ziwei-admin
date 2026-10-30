@@ -1,0 +1,44 @@
+{
+  "name": "ziwei-admin",
+  "version": "1.0.0",
+  "description": "紫微斗数本地管理后台 · Python + FastAPI 后端 + Next.js 14 前端 + SQLite，集成开源排盘库 iztro",
+  "keywords": [
+    "ziwei",
+    "astrolabe",
+    "iztro",
+    "zodiac",
+    "fastapi",
+    "nextjs",
+    "sqlite",
+    "chinese-astrology"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8700",
+    "build": "next build",
+    "start": "next start -p 8700",
+    "lint": "next lint",
+    "test:api": "python scripts/test_api.py",
+    "test:frontend": "python scripts/test_frontend.py",
+    "test:accept": "python scripts/final_acceptance.py"
+  },
+  "dependencies": {
+    "iztro": "^2.6.3",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/ziwei-admin"
+  }
+}
