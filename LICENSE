@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 ziwei-admin contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+第三方依赖声明 / Third-party notice
+
+本项目在运行时会调用开源排盘库 iztro：
+  - 名称: iztro
+  - 作者: SylarLong
+  - 仓库: https://github.com/SylarLong/iztro
+  - 许可: MIT License
+  - 版权: Copyright (c) 2023-2026 iztro contributors
+
+iztro 以 MIT 协议发布，与本项目协议兼容。项目的排盘算法、星曜数据、
+农历转换等核心逻辑均来自 iztro，本项目仅在其之上构建了 Python 桥接层、
+SQLite 数据层、REST API 与 Web 管理界面。
+
+This project uses iztro (https://github.com/SylarLong/iztro),
+licensed under the MIT License, for astrolabe computation.
