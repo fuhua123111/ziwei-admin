@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "ziwei-admin",
   "version": "1.0.0",
   "description": "紫微斗数本地管理后台 · Python + FastAPI 后端 + Next.js 14 前端 + SQLite，集成开源排盘库 iztro",
@@ -39,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourname/ziwei-admin"
+    "url": "https://github.com/fuhua123111/ziwei-admin"
   }
 }
